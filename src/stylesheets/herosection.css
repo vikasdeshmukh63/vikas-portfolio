@@ -1,0 +1,112 @@
+#herosection {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 10vw;
+}
+
+.hero-text {
+    width: 50%;
+    display: inline-block;
+}
+
+.hero-text h2 {
+    font-weight: 600;
+    color: var(--textprimary);
+}
+
+.hero-text p {
+    font-weight: 400;
+    color: var(--textprimary);
+    text-align: justify;
+}
+
+.hero-img{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+}
+
+.hero-img img {
+    width: 400px;
+}
+
+.float1 img,.float2 img,.float3 img{
+    width: 100% !important;
+}
+
+.float1{
+    position: absolute;
+    top:20px;
+    width: 100px;
+}
+.float2{
+    position: absolute;
+    left:40px;
+    top:140px;
+    width: 100px;
+}
+.float3{
+    position: absolute;
+    width: 100px;
+    right:20px
+}
+
+
+.hire-me {
+    background-color: var(--textsecondary);
+    color: white;
+    height: 40px;
+    padding: 10px 20px;
+    border-radius: 40px;
+    font-weight: 400;
+}
+
+.cv {
+    position:relative;
+    padding: 10px 20px;
+    border-radius: 40px;
+    background-color: var(--primarydark);
+    color: var(--textprimary);
+    border: 1px solid var(--textprimary);
+    height: 40px;
+    padding: 10px 20px;
+    border-radius: 40px;
+    font-weight: 400;
+    user-select: none;
+    transition: 0.5s;
+    margin-left: 20px;
+}
+
+.cv:hover {
+    color: #fff;
+}
+
+.cv span {
+    position: absolute;
+    border: 2px solid #fff;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    border-radius: 50%;
+    animation: animate 2s linear infinite;
+    filter: brightness(2);
+}
+
+@keyframes animate {
+    0% {
+        width: 0;
+        height: 0;
+    }
+
+    100% {
+        width: 350px;
+        height: 350px;
+    }
+}

@@ -1,0 +1,27 @@
+#projects{
+    width: 100%;
+    padding: 0 10vw;
+    margin-top: 200px;
+}
+
+#projects h1{
+    font-weight: 600;
+    color: var(--textprimary);
+    margin-bottom: 10px;
+}
+
+#projects p{
+    font-weight: 500;
+    color: var(--textprimary);
+    width: 40%;
+    margin-bottom: 50px;
+}
+
+.project-slot{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:30px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}

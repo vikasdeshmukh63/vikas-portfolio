@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --primarydark: #0e141b;
+    --secondarydark: #0d1117;
+    --primarylight: #ffffff;
+    --secondarylight: #f8f9fa;
+    --textprimary: #a6a8a9;
+    --textsecondary: #1890ff;
+    --buttonprimary: #ffffff;
+    --buttonsecondary: #ff4d4f;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    scroll-margin-top: 50px;
+}
+
+body {
+    background-color: var(--primarydark);
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text-4xl {
+    font-size: 50px;
+}
+
+.text-3xl {
+    font-size: 35px;
+}
+
+.text-2xl {
+    font-size: 20px;
+}
+
+.text-xl {
+    font-size: 18px;
+}
+
+.text-lg {
+    font-size: 16px;
+}
+
+.text-md {
+    font-size: 14px;
+}
+
+.text-sm {
+    font-size: 12px;
+}
+
+.text-sm {
+    font-size: 10px;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .project-slot {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .project-card {
+        width: 300px;
+    }
+
+    .hero-img {
+        width: 425px;
+    }
+
+    .inner-personal-details .left {
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #herosection {
+        justify-content: center;
+        height: 65vh;
+    }
+
+    .hero-img {
+        display: none;
+    }
+
+    .hero-text {
+        width: 80%;
+    }
+
+    .inner-personal-details .left {
+        width: 31%;
+    }
+
+    #skills p,
+    #projects p {
+        width: 66%;
+    }
+
+    .contact-container {
+        gap: 80px
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .nav-elements {
+        display: none;
+    }
+
+    .hero-text {
+        width: 100%;
+    }
+
+    .inner-personal-details {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .inner-personal-details .left {
+        width: 100%;
+    }
+
+    .inner-personal-details .right {
+        width: 100%;
+    }
+
+    #skills,
+    #projects {
+        margin-top: 100px;
+    }
+
+    .contact-container {
+        gap: 20px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #contact {
+        height: 100vh;
+    }
+
+    .contact-container {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 216px;
+        height: 111px;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .hero-text h2 {
+        font-size: 30px;
+    }
+
+    .hero-text p {
+        font-size: 14px;
+    }
+
+    .inner-personal-details .right p {
+        text-align: justify;
+    }
+
+    #skills p,
+    #projects p {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    #skills h1,
+    #projects h1 {
+        font-size: 30px;
+    }
+
+    .card-container {
+        justify-content: center;
+    }
+
+    .card {
+        width: 130px;
+    }
+
+    .card h4 {
+        font-size: 12px;
+    }
+
+    .inner-contact h1 {
+        font-size: 30px;
+    }
+
+    .contact-container {
+        gap: 10px
+    }
+
+    #contact {
+        height: 100vh;
+    }
+
+    #footer {
+        padding: 20px;
+    }
+
+    #footer h4 {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    #footer span {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .icongroup {
+        margin-bottom: 120px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .navbar {
+        justify-content: center;
+    }
+
+    .hero-buttons .hire-me {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+
+    .hero-buttons .cv {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+}

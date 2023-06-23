@@ -1,0 +1,62 @@
+#contact {
+    width: 100%;
+    background-color: var(--secondarydark);
+    margin-top: 50px;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inner-contact h1 {
+    color: var(--textprimary);
+    margin-bottom: 50px;
+    font-weight: 600;
+}
+
+.contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+
+.contact-card {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:10px
+}
+
+.contact-card .icon {
+    font-size: 30px;
+    font-weight: 400;
+    color: var(--textprimary);
+}
+
+.contact-card h4{
+    color: var(--textprimary);
+}
+
+.contact-card p{
+    color: var(--textprimary);
+}
+
+.contact-card h6 a{
+    font-weight: 700;
+    color: var(--textsecondary);
+    transition: 1s;
+}
+
+.contact-card h6 a:hover{
+    color: rgb(48, 174, 237);
+}
